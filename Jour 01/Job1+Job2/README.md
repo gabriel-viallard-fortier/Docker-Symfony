@@ -10,6 +10,10 @@ sudo pacman -S docker && yay docker-compose
 
 ## 🔐 Sign in to Docker Desktop
 
+```bash
+docker login
+```
+
 ![Login](images/sign-in-docker-desktop.png)
 
 ---------------------------
@@ -29,10 +33,10 @@ docker inspect containers
 ## ▶️ Run a Docker Image
 
 ```bash
-docker login
 docker run -d -p 8088:80 --name container-name path-to-image
 ```
-
+8088: port access in browser
+80: remote port in container/image
 
 -------------------------------
 
