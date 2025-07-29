@@ -1,6 +1,6 @@
 # Docker Super Mario
 
-## ❌ No docker-desktop on my Archlinux !
+## ❌ No docker-desktop on my PC
 
 ## Pull the image
 ```bash
